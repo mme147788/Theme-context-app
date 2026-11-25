@@ -1,0 +1,74 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Content */
+.light {
+    background-color: #f0ecec;
+    color: #222;
+    padding: 30px;
+}
+
+.dark {
+    background-color: #403f3f;
+    color: white;
+    padding: 30px;
+}
+
+
+/* Cards */
+.card {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.darkCard {
+    background-color: #222;
+    color: white;
+}
+
+.lightCard {
+    background-color: white;
+    color: #222;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* Header & Footer modes */
+.darkHF{
+background-color: #333;
+    color: white;
+}
+
+.lightHF{
+background-color: white;
+    color:  #333;
+}
